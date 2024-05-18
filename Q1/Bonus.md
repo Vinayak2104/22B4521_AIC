@@ -7,6 +7,7 @@
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*TZAy8tvsN7pMhrEpKVH2Og.jpeg">
 <h4>Adapting Self-Attention Mechanisms for Visual Data</h4>
 <p>By focusing on the relationships and relevance of different image patches, the architecture facilitates a deeper understanding of the visual content.</p>
+<img height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/attention_eg.png">
 <h4>The Role of Positional Embeddings in Image Recognition Tasks</h4>
 <p>Positional embeddings play a critical role in maintaining the spatial hierarchy of visual data, a necessity the pure transformer needed to adapt from NLP to computer vision. These embeddings ensure that despite the non-sequential processing of image patches, the model retains an awareness of their original positioning within the image, enhancing its ability to accurately interpret and classify visual information.</p>
 <h3>Differences</h3>
