@@ -83,8 +83,8 @@
 </ul>
 <h3>Resources Used</h3>
 <ol>
-  <li><https://towardsdatascience.com/evaluating-multi-label-classifiers-a31be83da6ea></li>
-  <li><https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/></li>
+  <li>https://towardsdatascience.com/evaluating-multi-label-classifiers-a31be83da6ea</li>
+  <li>https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification</li>
 </ol>
 
 
