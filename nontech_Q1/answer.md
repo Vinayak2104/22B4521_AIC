@@ -18,8 +18,12 @@ procurement cost of a steel plant </p>
   <h4>Price fluctution at hourly basis</h4>
   <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/Screenshot%202024-05-18%20231520.png">
   <li>Here we can observe a clear trend in price on hourly basis. Early mornings prices are low as compared to afternoon and this will be useful in both feature engineering and optimization.</li>
-  
-  
-  
-  
+  <h4>Price fluctution at monthly basis</h4>
+  <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/monthly_var.png">
+  <li>We can see some months have have higher prices and some have less therefore month or week can also be important features </li>
 </ul>
+<h3>Step 2: Feature Engineering</h3>
+<p>Based on the insights gathered from the analysis above we will now construct some important features.</p>
+<p>We found out that hour,week,month are some important factors but there are cyclic in nature therefore we have to find out some way to capture the cyclic nature </p>
+
+
