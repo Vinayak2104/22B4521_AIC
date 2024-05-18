@@ -13,5 +13,24 @@
   <li>We can observe that without any user interaction the journalist bot beautifully drives the interview and asks relevant questions.</li>
   <li>Implementation of RAG also helps model to reduce halucination since we are providing the relevant context from the paper which makes sure the llm uses that information rather than creating something of its own.</li>
   <li>Implementation of RAG also improves transparency since for every answer we are given the page-numbers to refer and i have also added feature where the relevant parts are highlighted in the pdf of paper also.</li>
-  
+  <img width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/highlight.png">
+  <li>RAG also enables us to use llms on our own data without fine-tuning which requires lot of data and computational power.</li>
+  <li>RAG also enables us to use llms on our own data without compromising privacy.</li>
 </ul>
+<h4>Role of Attension in improving chatbot performance</h4>
+<p>We have used "gpt-3.5" turbo which has attention built-in in its architecture</p>
+<ul>
+  <li>Imagine we have a sentence, and you want to predict the next word. The attention mechanism will look at all the previous words and decide which ones are most relevant to making the prediction. It does this by assigning a numerical value (weight) to each word. Words with higher weights have more influence on the prediction.</li>
+  <li>Doing so helps our model understand and capture more complex and deeper relations between each word.</li>
+</ul>
+<h3>Improvements that can be done</h3>
+<ul>
+  <li>We can add a feature where user can also ask questions or ask to explain some concept in deep to author bot</li>
+  <li>Provide a transcript of conversation in PDF format</li>
+  <li>Create a user friendly UI for the chatbot</li>
+  <li>Since the generated interview scripts can serve as condensed yet richer (than paper abstracts) versions of the full papers, we could first accumulate the scripts for a variety of papers in a specific research field, and then request a separate llm to generate comprehensive reviews of that field, based on analyzing the accumulated interview scripts. This feature would be especially valuable for researchers when they are initiating a new research project or a literature review paper.</li>
+</ul>
+<h3>Answer to bonus question of Q1 provided by our chatbot</h3>
+<p>The Vision Transformer (ViT) architecture differs from traditional Convolutional Neural Networks (CNNs) in processing image data for classification tasks by utilizing a pure transformer approach. Unlike CNNs, which rely on convolutional operations to extract features hierarchically, ViT applies self-attention mechanisms to capture global dependencies between image patches. This means that ViT processes images by dividing them into patches, flattening these patches into sequences, and then applying transformer blocks to learn relationships between patches directly. This allows ViT to perform well on image classification tasks, especially when pre-trained on large datasets, while requiring fewer computational resources compared to traditional CNNs.</p>
+
+
