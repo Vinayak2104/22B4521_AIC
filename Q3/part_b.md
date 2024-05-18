@@ -4,7 +4,7 @@
 <h4>Cosine Similarity</h4>
 <p>To dodge the curse of dimensionality we can take help of cosine similarity(or dot product) to find likeliness of two vectors.</p>
 <p>More the cos(angle between two vector) lesser is the angle between two vectors.Its value is between [-1,1], 1 representing very similar(happiness,joy) and -1 representing completely opposity(success,failure)</p>
-
+<img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q3/cos_sim.webp">
 <ul>
   <li>Cosine similarity is scale invariant i.e. Cosine similarity is not affected by the magnitude of the vectors.</li>
   <li>Easy to implement and interpret.</li>
