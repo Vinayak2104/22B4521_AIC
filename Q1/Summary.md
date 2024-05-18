@@ -35,6 +35,8 @@
 <h3>VGG16</h3>
 <p>The first model that we will be trying is VGG16. We will freeze all the layers except the last 4 and add our own dense layers for the downstream task.</p>
 <p><b>Note:</b> Accuracy is not a good metric here due to the imbalance present, therefore we will be using area under <b>precision-recall curve</b> as our metric during training.</p>
+<h4>VGG 16 performance on validation set</h4>
+
 
 
 
