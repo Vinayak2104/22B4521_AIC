@@ -54,6 +54,39 @@
 <p>The second model that we will be trying is ResNet50. We will freeze all the layers except the last 50 and add our own dense layers for the downstream task.</p>
 <h4>Resnet50 performance on validation set</h4>
 <h5>Classification Report</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/resnet_cr.png">
+<h5>Classification Report using new cutoff probablities</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/resnet_cr_thresh.png">
+<p>Find cutoff probabilities using PR curve shows improvement in ResNet50 also but overall we can see that VGG16 performs better on our dataset</p>
+<h4><b>VGG16 is the winner here :)</b></h4>
+<h3>Making predictions</h3>
+<p>As descibed above the test dataset contains images mostly with only "person" class, therefore according to me it is better to make the visualize some predictions from the validation set,although classification report on the test set is available in the notebook</p>
+<h4>VGG16</h4>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/vgg_val_preds.png">
+<h4>ResNet50</h4>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/resnet_val_pred.png">
+<p>Both the models still struggle to identify all the labels correctly when images belong to more than one label</p>
+<h3>Discussing some problems and probable improvements that can be done</h3>
+<h4>Problems</h4>
+<ul>
+  <li>Due to limited computational resources, i had to use an image size of (100,100) for training both the models and these models were not pretrained on images of these sizes.Also smaller size of images affect the quality of predictions due to reduced quality of data.</li>
+  <li>I could only generate few augmented samples for each image due to limited computational resources, more data might lead to better performance </li>
+  <li>It was quite easy for our model to overfit due to heavy imbalance present.</li>
+  <li>Due to limited data and computational resources i could not try finetuning all the layers in both the models.</li>
+  <li>Lastly <b>hundreds</b> of errors and bugs during coding.</li>
+</ul>
+<h4>Improvements and what more can we try</h4>
+<ul>
+  <li>Using more data and larger image sizes can potentially improve the performance</li>
+  <li>Using a weighted mean at the time of combining loss from each of 20 class may handle class imbalance better</li>
+  <li>A combination of CNN with attention or ViT with CNN will be interesting to try and see how they perform.</li>
+</ul>
+<h3>Resources Used</h3>
+<ol>
+  <li>https://towardsdatascience.com/evaluating-multi-label-classifiers-a31be83da6ea</li>
+  <li>https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification</li>
+</ol>
+
 
 
 
