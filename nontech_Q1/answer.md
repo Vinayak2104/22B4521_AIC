@@ -17,7 +17,7 @@ procurement cost of a steel plant </p>
   <p>We can observe that there is no relation between daily avg price and volume traded therefore it might not be a important feature</p>
   <h4>Price fluctution at hourly basis</h4>
   <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/Screenshot%202024-05-18%20231520.png">
-  <li>Here we can observe a clear trend in price on hourly basis. Early mornings prices are low as compared to afternoon and this will be useful in both feature engineering and optimization.</li>
+  <li>Here we can observe a clear trend in price on hourly basis. Early mornings prices are low as compared to afternoon and this will be useful in both feature engineering and optimization.One more thing that we observed that prices on an average were decreasing from 2010-2016 but suddenly increased in 2017 there it is possible that 2017 might be an outlier year like covid therefore we have to consider that possibilty also.</li>
   <h4>Price fluctution at monthly basis</h4>
   <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/monthly_var.png">
   <li>We can see some months have have higher prices and some have less therefore month or week can also be important features </li>
@@ -28,6 +28,18 @@ procurement cost of a steel plant </p>
 <h4>Cosine and Sin of hours,week,month</h4>
 <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/sin_cos.png">
 <p>Using sine and cosine both we can capture the cyclicity as depicted in the image above.</p>
+<p>We also create a feature to differentiate other years from 2017 due to the sudden jump in prices discussed above.</p>
+<h3>Step 3:Splitting the data</h3>
+<p>Since we are dealing with time series data it is important to maintain the temporal nature of the data, therefore we used data from 2010-2016 for training and 2017 for validation and then after finalising the best model we take the whole data for training the final model.</p>
+<h3>Step 4: Finding best model</h3>
+<ol>
+  <li>First model we tried was random forest regressor.We can use libraries like optuna to find the best hyperparameters.</li>
+  <li>Second model we tried was XGBoost regressor.We can again use optuna to tune the hyperparameters</li>
+  <li>It is also better and advisable to try models build for timeseries forecasting like ARIMA,SARIMA etc.</li>
+</ol>
+<h3>Step 5: Evaluating Model Performance</h3>
+<p>To know how well your model is performing it is important to choose the correct metric. FOr this regression problem we will use R2 score.</p>
+<p>Based on the R2 score of validation set we will select which model to use at the end.</p>
 
 
 
