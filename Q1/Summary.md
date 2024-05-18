@@ -26,6 +26,15 @@
 </ul>
 <p>We will take all the images that does not belong to "person" class and generate <b>two</b> augmented image for each image.</p>
 <h3>Approach to multi-label classification</h3>
+<img  width=1000 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/rough_model_arch.png">
+<p>The above image shows the rough architecture that we will be using.</p>
+<ul>
+  <li>We will treat the multi-label classification problem as 20 binary classification problem, hence sigmoid is used instead of softmax in the output layer.</li>
+  <li>Since the number of images in our dataset is less,it is good practice to use to a pretrained model and fine tune the dense layers and convolutional layers towards the end of the architecture on our data.</li>
+</ul>
+<h3>VGG16</h3>
+<p>The first model that we will be trying is VGG16. We will freeze all the layers except the last 4 and add our own dense layers for the downstream task.</p>
+<p><b>Note:</b> Accuracy is not a good metric here due to the imbalance present, therefore we will be using area under <b>precision-recall curve</b> as our metric during training.</p>
 
 
 
