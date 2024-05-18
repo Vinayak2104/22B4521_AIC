@@ -9,3 +9,5 @@
   <li>Cosine similarity is scale invariant i.e. Cosine similarity is not affected by the magnitude of the vectors.</li>
   <li>Easy to implement and interpret.</li>
 </ul>
+<h3>Comparing self-trained skip gram model and pretrained Google Gensim trained on Google news data</h3>
+<h4>Self-trained</h4>
