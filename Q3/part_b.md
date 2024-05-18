@@ -11,3 +11,8 @@
 </ul>
 <h3>Comparing self-trained skip gram model and pretrained Google Gensim trained on Google news data</h3>
 <h4>Self-trained</h4>
+<img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q3/self_trained_2d.png">
+<h4>Pre-trained</h4>
+<img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q3/gensim_2d.png">
+<p>Keeping in mind the limited data , self-trained embeddings still performed very well and according to me slightly better for some categories like fruits, although embeddings for countries are a bit better using pretrained embeddings. </p>
+<p>But using pretrained embeddings saves the time and money since computational resources required are less</p>
