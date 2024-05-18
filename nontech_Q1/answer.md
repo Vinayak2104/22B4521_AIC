@@ -40,6 +40,37 @@ procurement cost of a steel plant </p>
 <h3>Step 5: Evaluating Model Performance</h3>
 <p>To know how well your model is performing it is important to choose the correct metric. FOr this regression problem we will use R2 score.</p>
 <p>Based on the R2 score of validation set we will select which model to use at the end.</p>
+<h3>Step 6: Inferences from the Output</h3>
+<p>Using the hourly prices predicted for 2018 we will optimize the daily average eletricity utilization cost of the steel plant. As we observed a hourly trend in the price we will also do the optimization on the hourly basis.</p>
+<b>Given information</b>
+<ol>
+  <li>
+    Demand:- 1,200 MWh/ Day
+  </li>
+  <li>
+    Supply capacities:- 
+    <ul>
+      <li>Solar Power Plant – 150 MWh/day fixed @ 0 EUR</li>
+      <li>State Electricity Grid is 57.62 EUR/MWh @ fixed price</li>
+      <li>Energy Exchange :- Variable prices per hour</li>
+    </ul>
+  </li>
+  <li>Minimum 20% renewable energy of 1200 MWh is required </li>
+  <li>Energy drawn in +ve from each source </li>
+</ol>
+<b>Assumptions</b>
+<ol>
+  <li>Total energy requirement is 1200MWh/day so considering steel 
+plant is working 24 hrs with same efficiency demand for each hour 
+will be 50 MWhr.</li>
+  <li>Exchange supply limit is in range of our requirements</li>
+  <li>Total solar energy will be used between H11 to H 13, and no 
+energy will be drawn from grid and exchange in these hours.Since these are peak sunny hours and also the hours where exchange prices are maximum.</li>
+</ol>
+<b>Additional contraints for hourly requirements</b>
+<ul><li>
+  50 MWhr = Energysolar + EnergyExchange + Energygrid
+</li></ul>
 
 
 
