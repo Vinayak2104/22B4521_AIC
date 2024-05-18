@@ -16,6 +16,7 @@ procurement cost of a steel plant </p>
   <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/price_vs_volume.png">
   <p>We can observe that there is no relation between daily avg price and volume traded therefore it might not be a important feature</p>
   <h4>Price fluctution at hourly basis</h4>
+  <img width=500 height=300 src=""
   
   
   
