@@ -10,3 +10,12 @@
   <li>Normalize the pixel value between 0 and 1.</li>
   <li>Resize all the images to same size. I have used a size of (100x100) to train the models.</li>
 </ul>
+<h3>Few problems that are needed to be addressed before we move on to train the model</h3>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/train_dis_wo_aug.png">
+<ul>
+  <li>In the image above, it is clear that there is a class imbalance both within each class(mostly negative samples) and between classes(more images where "person" is one of the class )</li>
+  <li>To solve the imbalance within each class we will define a custom <b>WeightedCrossEntropy</b> loss function which we account for weights of positive and negative samples within in each class.</li>
+  <li>To solve the imbalance between the class we will take help of data augmentation.This will also help to increase the size of dataset and bring more variability to it, which will hopefully make our models more robust </li>
+</ul>
+
+
