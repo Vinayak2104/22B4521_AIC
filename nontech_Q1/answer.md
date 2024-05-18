@@ -26,6 +26,8 @@ procurement cost of a steel plant </p>
 <p>Based on the insights gathered from the analysis above we will now construct some important features.</p>
 <p>We found out that hour,week,month are some important factors but there are cyclic in nature therefore we have to find out some way to capture the cyclic nature </p>
 <h4>Cosine and Sin of hours,week,month</h4>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/sin_cos.png">
+<p>Using sine and cosine both we can capture the cyclicity as depicted in the image above.</p>
 
 
 
