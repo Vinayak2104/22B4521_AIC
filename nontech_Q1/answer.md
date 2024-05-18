@@ -11,8 +11,13 @@ procurement cost of a steel plant </p>
   <li>Looking for outiers in each column that might affect our model performance.</li>
   <img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/nontech_outlier.png">
   <li>We can see above, the prices for 2010 data had an outlier which had to be removed</li>
-  <li>Try to plot graph of each column with output column we might be able to find a mathematical relation like quadratic and make new features using that information.</li>
+  <li>Try to plot graph of each column with output column we might be able to find a mathematical relation like quadratic and make new features using that information.We can also use sone statistical methods like linear collinearity to find linear relations or Spearman's coefficient to capture non linear relations.</li>
   <h4>Daily avg price Vs volume traded for 2010</h4>
+  <img src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/price_vs_volume.png">
+  <p>We can observe that there is no relation between daily avg price and volume traded therefore it might not be a important feature</p>
+  <h4>Price fluctution at hourly basis</h4>
+  
+  
   
   
 </ul>
