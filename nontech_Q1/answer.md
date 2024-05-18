@@ -31,6 +31,7 @@ procurement cost of a steel plant </p>
 <p>We also create a feature to differentiate other years from 2017 due to the sudden jump in prices discussed above.</p>
 <h3>Step 3:Splitting the data</h3>
 <p>Since we are dealing with time series data it is important to maintain the temporal nature of the data, therefore we used data from 2010-2016 for training and 2017 for validation and then after finalising the best model we take the whole data for training the final model.</p>
+<p>It is also advised to normalize the data and bring it to same scale,since it does not cause exploding or vanishing gradient problems when we are using something like gradient descent.</p>
 <h3>Step 4: Finding best model</h3>
 <ol>
   <li>First model we tried was random forest regressor.We can use libraries like optuna to find the best hyperparameters.</li>
@@ -72,6 +73,11 @@ energy will be drawn from grid and exchange in these hours.Since these are peak 
   50 MWhr = Energysolar + EnergyExchange + Energygrid
 </li></ul>
 <p>Since all the constraints are linear we will go with linear programming as it is simple and computationally effective. </p>
+<img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/optimization.png">
+<p>This is how we will divide the optimization problem and we can see how important inferences for data and predictions are to achieve best possible optimization.</p>
+<h3>Step 7: Validating the results</h3>
+<p>It is important to check once if the results of our models and approach are practically and mathematically feasible or not</p>
+
 
 
 
