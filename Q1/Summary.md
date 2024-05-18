@@ -35,6 +35,28 @@
 <h3>VGG16</h3>
 <p>The first model that we will be trying is VGG16. We will freeze all the layers except the last 4 and add our own dense layers for the downstream task.</p>
 <p><b>Note:</b> Accuracy is not a good metric here due to the imbalance present, therefore we will be using area under <b>precision-recall curve</b> as our metric during training.</p>
+<h4>VGG 16 performance on validation set</h4>
+<h5>Classification Report</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/vgg_cr.png">
+<p>The performance seems good, but we can try one more thing to improve the performance which is optimize the cutoff threshold for each class. The classification report shown above is generated using 0.5 as the cutoff probablity.</p>
+<p>Now we will use precision-recall curve to find the best cutoff probablity for each class.</p>
+<p><b>Note:</b> We could also use ROC( receiver operating characteristics) curve for the same, but it is advised to use precision-recall in case of imbalanced datasets since there is no involvement of <b>True negatives</b> in calculations of precision and recall, where as true negative plays a role in calculation of False positive rate used in ROC.</p>
+<h5>Steps to calculate best cutoff probablity</h5>
+<ol>
+  <li>Pick a class, and calculate F1 score for each threshold value.</li>
+  <li>Pick threshold with maximum F1 score as cutoff threshold.</li>
+  <li>Repeat above steps for rest of the classes.</li>
+</ol>
+<h5>Classification Report using new cutoff probablities</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/vgg_cr_thresh.png">
+<p>We can clearly observe an improvement in the F1 score.</p>
+<h3>ResNet50</h3>
+<p>The second model that we will be trying is ResNet50. We will freeze all the layers except the last 50 and add our own dense layers for the downstream task.</p>
+<h4>Resnet50 performance on validation set</h4>
+<h5>Classification Report</h5>
+
+
+
 
 
 
