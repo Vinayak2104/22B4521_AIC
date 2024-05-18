@@ -11,4 +11,4 @@
 <p>Positional embeddings play a critical role in maintaining the spatial hierarchy of visual data, a necessity the pure transformer needed to adapt from NLP to computer vision. These embeddings ensure that despite the non-sequential processing of image patches, the model retains an awareness of their original positioning within the image, enhancing its ability to accurately interpret and classify visual information.</p>
 <h3>Differences</h3>
 <p>Unlike CNNs, which process images through localized filters, ViTs assess the image in its entirety, providing a more holistic understanding. This distinction enables transformers for image recognition to outperform CNNs, particularly in tasks that benefit from a broader perspective and intricate pattern recognition across the image.</p>
-<p>But ViT demand more computational resources than CNN </p>
+<p>ViT can produce at par results with models like ResNet50 while using lesser computation resources </p>
