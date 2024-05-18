@@ -25,5 +25,7 @@
   <li>Random vertical and horizontal shift by 0.05</li>
 </ul>
 <p>We will take all the images that does not belong to "person" class and generate <b>two</b> augmented image for each image.</p>
+<h3>Approach to multi-label classification</h3>
+
 
 
