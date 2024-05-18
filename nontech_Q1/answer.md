@@ -71,6 +71,7 @@ energy will be drawn from grid and exchange in these hours.Since these are peak 
 <ul><li>
   50 MWhr = Energysolar + EnergyExchange + Energygrid
 </li></ul>
+<p>Since all the constraints are linear we will go with linear programming as it is simple and computationally effective. </p>
 
 
 
