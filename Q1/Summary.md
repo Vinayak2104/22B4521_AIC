@@ -50,6 +50,11 @@
 <h5>Classification Report using new cutoff probablities</h5>
 <img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/vgg_cr_thresh.png">
 <p>We can clearly observe an improvement in the F1 score.</p>
+<h3>ResNet50</h3>
+<p>The second model that we will be trying is ResNet50. We will freeze all the layers except the last 50 and add our own dense layers for the downstream task.</p>
+<h4>Resnet50 performance on validation set</h4>
+<h5>Classification Report</h5>
+
 
 
 
