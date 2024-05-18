@@ -12,5 +12,7 @@ procurement cost of a steel plant </p>
   <img height=300 width=500 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/nontech_outlier.png">
   <li>We can see above, the prices for 2010 data had an outlier which had to be removed</li>
   <li>Try to plot graph of each column with output column we might be able to find a mathematical relation like quadratic and make new features using that information.</li>
+  <h4>Daily avg price Vs volume traded for 2010</h4>
+  
   
 </ul>
