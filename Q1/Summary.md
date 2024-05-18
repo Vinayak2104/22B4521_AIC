@@ -54,6 +54,15 @@
 <p>The second model that we will be trying is ResNet50. We will freeze all the layers except the last 50 and add our own dense layers for the downstream task.</p>
 <h4>Resnet50 performance on validation set</h4>
 <h5>Classification Report</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/resnet_cr.png">
+<h5>Classification Report using new cutoff probablities</h5>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q1/resnet_cr_thresh.png">
+<p>Find cutoff probabilities using PR curve shows improvement in ResNet50 also but overall we can see that VGG16 performs better on our dataset</p>
+<h4><b>VGG16 is the winner here :)</b></h4>
+<h3>Making predictions</h3>
+<p>As descibed above the test dataset contains images mostly with only "person" class, therefore according to me it is better to make the visualize some predictions from the validation set,although classification report on the test set is available in the notebook</p>
+<h4>VGG16</h4>
+
 
 
 
