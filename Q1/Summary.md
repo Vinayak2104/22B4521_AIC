@@ -17,5 +17,13 @@
   <li>To solve the imbalance within each class we will define a custom <b>WeightedCrossEntropy</b> loss function which we account for weights of positive and negative samples within in each class.</li>
   <li>To solve the imbalance between the class we will take help of data augmentation.This will also help to increase the size of dataset and bring more variability to it, which will hopefully make our models more robust </li>
 </ul>
+<h3>Data Augmentation</h3>
+<h4>Transformations used:</h4>
+<ul>
+  <li>Random rotation between 0 to 25 degrees</li>
+  <li>Random horizontal flipping</li>
+  <li>Random vertical and horizontal shift by 0.05</li>
+</ul>
+<p>We will take all the images that does not belong to "person" class and generate <b>two</b> augmented image for each image.</p>
 
 
