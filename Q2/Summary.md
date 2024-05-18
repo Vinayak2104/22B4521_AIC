@@ -30,4 +30,7 @@
   <li>Create a user friendly UI for the chatbot</li>
   <li>Since the generated interview scripts can serve as condensed yet richer (than paper abstracts) versions of the full papers, we could first accumulate the scripts for a variety of papers in a specific research field, and then request a separate llm to generate comprehensive reviews of that field, based on analyzing the accumulated interview scripts. This feature would be especially valuable for researchers when they are initiating a new research project or a literature review paper.</li>
 </ul>
+<h3>Answer to bonus question of Q1 provided by our chatbot</h3>
+<p>The Vision Transformer (ViT) architecture differs from traditional Convolutional Neural Networks (CNNs) in processing image data for classification tasks by utilizing a pure transformer approach. Unlike CNNs, which rely on convolutional operations to extract features hierarchically, ViT applies self-attention mechanisms to capture global dependencies between image patches. This means that ViT processes images by dividing them into patches, flattening these patches into sequences, and then applying transformer blocks to learn relationships between patches directly. This allows ViT to perform well on image classification tasks, especially when pre-trained on large datasets, while requiring fewer computational resources compared to traditional CNNs.</p>
+
 
