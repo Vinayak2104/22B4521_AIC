@@ -77,6 +77,9 @@ energy will be drawn from grid and exchange in these hours.Since these are peak 
 <p>This is how we will divide the optimization problem and we can see how important inferences for data and predictions are to achieve best possible optimization.</p>
 <h3>Step 7: Validating the results</h3>
 <p>It is important to check once if the results of our models and approach are practically and mathematically feasible or not</p>
+<img width=500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/nontech_Q1/validating_results.png">
+<p>The above calculations were used to find the upper and lower limit of percent of renewable able energy that can be actually achieved with given data and our results should be within these ranges.</p>
+<p>Apart from all this it is also important to gather some domain knowlegdge or take help from a expert if we can it helps gain new insights about the problem and the data.</p>
 
 
 
