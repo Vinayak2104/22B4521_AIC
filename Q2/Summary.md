@@ -33,7 +33,6 @@
 </ul>
 <h3>Improvements that can be done</h3>
 <ul>
-  <li>We can add a feature where user can also ask questions or ask to explain some concept in deep to author bot</li>
   <li>Provide a transcript of conversation in PDF format</li>
   <li>Create a user friendly UI for the chatbot</li>
   <li>Since the generated interview scripts can serve as condensed yet richer (than paper abstracts) versions of the full papers, we could first accumulate the scripts for a variety of papers in a specific research field, and then request a separate llm to generate comprehensive reviews of that field, based on analyzing the accumulated interview scripts. This feature would be especially valuable for researchers when they are initiating a new research project or a literature review paper.</li>
