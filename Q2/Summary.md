@@ -8,6 +8,13 @@
 <h3>Example</h3>
 <img src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/eg1.png">
 <img src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/eg2.png">
+<h3>Stack used while making the chatbot </h3>
+<ul>
+  <li>Langchain</li>
+  <li>gpt-3.5 turbo as base llm.</li>
+  <li>OpenAI embeddings to generate embeddings.</li>
+  <li>FAISS vector store for storing the embeddings.</li>
+</ul>
 <h3>Observations</h3>
 <ul>
   <li>We can observe that without any user interaction the journalist bot beautifully drives the interview and asks relevant questions.</li>
