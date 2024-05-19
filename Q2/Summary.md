@@ -22,7 +22,7 @@
 <ul>
   <li>Imagine we have a sentence, and you want to predict the next word. The attention mechanism will look at all the previous words and decide which ones are most relevant to making the prediction. It does this by assigning a numerical value (weight) to each word. Words with higher weights have more influence on the prediction.</li>
   <li>For eg the meaning of model in "A machine learning <b>model</b>" is different from model in "A fashion <b>model</b>".The attention block is whats responsible for figuring out which words in the context are relevant for updating the meaning of which other words and how exactly those meanings or embeddings of each word should be updated.</li>
-  <li>Doing so helps our model understand and capture more complex and deeper relations between each word.</li>
+  <li>Attention in makes the raw word/token embeddings more richer in terms of context in which they are used.</li>
 </ul>
 <h3>Improvements that can be done</h3>
 <ul>
