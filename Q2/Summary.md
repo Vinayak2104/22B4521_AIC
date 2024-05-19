@@ -5,6 +5,7 @@
 <img width= 500 height=300 src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/overview2.png">
 <p>The above figure shows a high level overview of how will be the flow.</p>
 <p>We will be using the original paper of ViT to evaluate the performance, this will also help in bonus part of Q1 ;)</p>
+<p>Also after every question-answer pair the user is given choice to ask there own questions in case they want a more elaborate explanation on some specific topic.</p>
 <h3>Example</h3>
 <img src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/eg1.png">
 <img src="https://github.com/Vinayak2104/22B4521_AIC/blob/main/Q2/eg2.png">
