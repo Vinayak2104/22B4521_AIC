@@ -6,3 +6,4 @@
   <li>Managing the huge amount of money and computational resources required.</li>
   <li>Finally a pinch of uniqueness to standout from the giants like OpenAI.</li>
 </ul>
+<p>The other thing i would love to work upon is how generative AI can be utilized in different sectors like banking,education,construction etc.</p>
